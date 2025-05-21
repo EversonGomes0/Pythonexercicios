@@ -1,0 +1,7 @@
+frase=str(input('Digite uma frase: '))
+frase=frase.lower()
+letra=str(input('Qual a letra desejada?'))
+letra=letra.lower()
+print(f'A letra {letra.upper()} aparece {frase.count(letra)} vezes na frase.')
+print(f'A primeira aparece na {frase.find(letra)+1}° posição')
+print(f'A última aparece na {frase.rfind(letra)+1}° posição')
