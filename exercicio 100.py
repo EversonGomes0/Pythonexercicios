@@ -9,6 +9,7 @@ def sorteia(lista):
         print(f'{n}', end=' ')
         sleep(0.3)
     print('Pronto!')
+    return lista
     #Somando os pares de uma lista
 def somapares(lista):
     soma = 0
